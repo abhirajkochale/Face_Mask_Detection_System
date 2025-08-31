@@ -1,2 +1,26 @@
-# Face_Mask_Detection_System
-A real-time Face Mask Detection System using OpenCV and a CNN model. It detects faces via Haar Cascade and classifies them as with mask or without mask, drawing green or red bounding boxes accordingly. Useful for public spaces, workplaces, and automated mask compliance.
+# 😷 Face Mask Detection System
+
+## 📌 Objective
+Detect whether individuals are wearing masks in real-time using a webcam.
+
+## 🛠 Tech Stack
+- OpenCV
+- TensorFlow / Keras (CNN)
+- Haar Cascade Classifier
+- Streamlit (for UI)
+
+## 📖 Description
+This system captures live video feed from a webcam and detects faces using OpenCV’s Haar cascade.  
+A trained Convolutional Neural Network (CNN) classifies whether the person is **wearing a mask** or **not wearing a mask**.  
+
+- Green Bounding Box ✅ → With Mask  
+- Red Bounding Box ❌ → Without Mask  
+
+## 🚀 Features
+- Real-time face mask detection via webcam
+- Trained CNN on labeled dataset (Mask / No Mask)
+- Live feedback with bounding boxes
+- Optional: Alert notification if no mask detected
+- Streamlit app for interactive use
+
+## 📂 Project Structure
