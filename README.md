@@ -22,5 +22,3 @@ A trained Convolutional Neural Network (CNN) classifies whether the person is **
 - Live feedback with bounding boxes
 - Optional: Alert notification if no mask detected
 - Streamlit app for interactive use
-
-## 📂 Project Structure
