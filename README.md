@@ -22,3 +22,7 @@ A trained Convolutional Neural Network (CNN) classifies whether the person is **
 - Live feedback with bounding boxes
 - Optional: Alert notification if no mask detected
 - Streamlit app for interactive use
+
+## 📦 Dataset
+This project uses the [Face Mask Dataset](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset) from Kaggle.  
+Download and extract it into the `data_raw/` folder before running the training script.
