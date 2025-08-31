@@ -26,3 +26,9 @@ A trained Convolutional Neural Network (CNN) classifies whether the person is **
 ## 📦 Dataset
 This project uses the [Face Mask Dataset](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset) from Kaggle.  
 Download and extract it into the `data_raw/` folder before running the training script.
+
+### Dataset Setup
+1. Download the dataset from Kaggle:  
+   [Face Mask Dataset](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)  
+2. Place the extracted files inside the `data_raw/` folder.  
+3. Run `split_data.py` to prepare the dataset for training.
